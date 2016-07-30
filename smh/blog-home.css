@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ /*@font-face {
+     font-family: 'BKoodak';
+     src: url('../fonts/BKoodakBold.eot');
+     src: url('../fonts/BKoodakBold.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/BKoodakBold.woff') format('woff'),
+          url('../fonts/BKoodakBold.ttf') format('truetype');
+ }*/
+ @font-face {
+     font-family: 'IranSans';
+     src: url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.otf');
+     src: url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.otf?#iefix?raw=true') format('embedded-opentype'),
+          url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.woff2?raw=true') format('woff2'),
+          url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.ttf?raw=true') format('truetype');
+ }
+
+ /*@font-face {
+     font-family: 'IranSans';
+     src: url('../fonts/IRANSans.otf');
+     src: url('../fonts/IRANSans.otf?#iefix') format('embedded-opentype'),
+          url('../fonts/IRANSans.woff2') format('woff2'),
+          url('../fonts/IRANSans.ttf') format('truetype');
+ }*/
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family:"IranSans", Helvetica, Arial, Tahoma, sans-serif;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.intro-header{
+    background: center center no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+margin-bottom: 50px;
+margin-top: -20px;/*@2016-Because of navbar margin-bottom on bootstrap*/
+/*background-image: url('../img/post-bg.jpg');*/
+background-color: #5bc1f0;
+color:white;
+}
+
+.container > .row > .col-md-3 {
+    background-color: #80c0de !important;
+}
+.container > .row > .col-md-2 {
+    background-color: #80c0de !important;
+}
+/*Custom .well style*/
+/*
+.well{
+  background-color: #c8e1ef;
+box-shadow: 8px 5px 12px 1px #1f7e9e;
+}
+*/
+.well{
+  padding: 8px !important;
+}
+pre{
+  text-align: left;
+  overflow: auto;
+}
+p.post_tools > a{
+  padding-left: 4px;
+}
+p.post_tools > a:hover{
+  color:#e4701b;
+}
+p.post-meta-top{
+  font-size:13px !important;
+}
+
+/*Mobile and Tablets*/
+@media (max-width: 992px) {
+.year_shoar{
+  font-size:18px !important;
+}
+.post-heading > h2{
+  font-size:25px;
+}
+}
+
+p.fotter-icons > span{
+  font-size:20px;
+}
+p.fotter-icons > a > span{
+  font-size:20px;
+}
+p.fotter-icons > a:hover{
+  color:orange;
+}
+p.fotter-icons > span:hover{
+  color:orange;
+}
+span.glyphicon-phone:hover, span.glyphicon-bold:hover{
+  cursor: help;
+}
+.tooltip{
+  font-family:"IranSans", Helvetica, Arial, Tahoma, sans-serif !important;
+}
