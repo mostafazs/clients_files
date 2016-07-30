@@ -13,10 +13,10 @@
  }*/
  @font-face {
      font-family: 'IranSans';
-     src: url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.otf');
-     src: url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.otf?#iefix?raw=true') format('embedded-opentype'),
-          url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.woff2?raw=true') format('woff2'),
-          url('https://cdn.rawgit.com/mostafazs/test_things/master/IRANSans.ttf?raw=true') format('truetype');
+     src: url('http://rawgit.com/mostafazs/clients_files/master/smh/IRANSans.otf');
+     src: url('http://rawgit.com/mostafazs/clients_files/master/smh/IRANSans.otf?#iefix') format('embedded-opentype'),
+          url('http://cdn.rawgit.com/mostafazs/clients_files/master/smh/IRANSans.woff2') format('woff2'),
+          url('http://github.com/mostafazs/clients_files/blob/master/smh/IRANSans.ttf') format('truetype');
  }
 
  /*@font-face {
@@ -86,6 +86,9 @@ p.post-meta-top{
 }
 .post-heading > h2{
   font-size:25px;
+}
+.intro-header{
+  background-image: none;
 }
 }
 
