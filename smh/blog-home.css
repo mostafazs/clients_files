@@ -15,8 +15,8 @@
      font-family: 'IranSans';
      src: url('http://rawgit.com/mostafazs/clients_files/master/smh/IRANSans.otf');
      src: url('http://rawgit.com/mostafazs/clients_files/master/smh/IRANSans.otf?#iefix') format('embedded-opentype'),
-          url('http://cdn.rawgit.com/mostafazs/clients_files/master/smh/IRANSans.woff2') format('woff2'),
-          url('http://github.com/mostafazs/clients_files/blob/master/smh/IRANSans.ttf') format('truetype');
+          url('http://rawgit.com/mostafazs/clients_files/master/smh/IRANSans.woff2') format('woff2'),
+          url('http://rawgit.com/mostafazs/clients_files/master/smh/IRANSans.ttf') format('truetype');
  }
 
  /*@font-face {
