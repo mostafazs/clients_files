@@ -92,6 +92,17 @@ p.post-meta-top{
 }
 }
 
+@media (max-width: 1024px) {
+
+p > marquee{
+  width:410px;
+  margin-right:420px;
+}
+/*.post-heading h1{
+  margin-right:210px;
+}*/
+}
+
 p.fotter-icons > span{
   font-size:20px;
 }
