@@ -98,7 +98,9 @@ p > marquee{
   width:410px;
   margin-right:200px;
 }
-
+.post-heading > h1{
+	margin-right:200px;
+}
 }
 
 p.fotter-icons > span{
