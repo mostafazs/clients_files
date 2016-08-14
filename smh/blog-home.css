@@ -104,7 +104,12 @@ p > marquee{
 .well ul li{
     padding-right: 7px;
 	list-style: none;
-  }
+}
+.well > h4{
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px dashed #c4c4c4;
+}
 }
 
 p.fotter-icons > span{
