@@ -110,6 +110,10 @@ p > marquee{
 	font-weight: normal;
 	border-bottom: 1px dashed #c4c4c4;
 }
+/*Last articles widget*/
+.col-lg-12 > ul{
+	padding-right: 2px;
+}
 
 }
 
