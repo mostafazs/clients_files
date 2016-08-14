@@ -113,6 +113,7 @@ p > marquee{
 /*Last articles widget*/
 .col-lg-12 > ul{
 	padding-right: 2px;
+	list-style:none;
 }
 
 }
