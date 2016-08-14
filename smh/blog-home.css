@@ -101,6 +101,10 @@ p > marquee{
 .post-heading > h1{
 	margin-right:90px;
 }
+.well ul li{
+    padding-right: 7px;
+	list-style: none;
+  }
 }
 
 p.fotter-icons > span{
